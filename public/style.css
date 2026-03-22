@@ -1,7 +1,8 @@
 body{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   font-family: 'Courier New', Courier, monospace;
+  margin: 25px auto;
 }
 .CurriculumLadoEsquerdo{
     background-color: #f3e8e1;
@@ -20,6 +21,7 @@ body{
     text-transform: uppercase;
     font-size: 32px;
     text-align: center;
+    color: #1a2a6c;
 }
 .contatos{
     display: grid;
@@ -41,4 +43,13 @@ body{
     text-align: justify;
     line-height: 1.5;
     font-size: 18px;
+}
+.lista-habilidades li, .tarefas-desenvolvidas li {
+    margin-bottom: 20px;
+}
+.tarefas-desenvolvidas li {
+    font-size: 18px;
+}
+h1, h2, h3 {
+    font-family: sans-serif;
 }
