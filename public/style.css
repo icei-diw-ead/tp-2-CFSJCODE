@@ -24,8 +24,21 @@ body{
 .contatos{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 .descricaodeexperiencia{
-    display: flex;
     text-align: justify;
+    line-height: 1.5;
+}
+.titulo-habilidades, .titulo-idiomas, .tituloexperiencia{
+    border-bottom: 1px solid black;
+}
+.cabecalho-curso, .cabecalho-experiencia{
+    display: flex;
+    justify-content: space-between;
+}
+.habilidades{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
 }
