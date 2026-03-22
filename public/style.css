@@ -1,0 +1,31 @@
+body{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: 'Courier New', Courier, monospace;
+}
+.CurriculumLadoEsquerdo{
+    background-color: #f3e8e1;
+    padding: 40px;
+}
+.CurriculumLadoDireito{
+    padding: 40px;
+}
+.image-curriculo{
+    border-radius: 50%;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.nome{
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+}
+.contatos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.descricaodeexperiencia{
+    display: flex;
+    text-align: justify;
+}
